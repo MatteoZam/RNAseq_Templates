@@ -3,3 +3,8 @@ It contains the workflow and scripts for simple analysis of gene differential ex
 
 
 ![RNAseq Template Flowchart](RNAseq_Template.png)
+
+
+Requirements:
+devtools::install_github("emosca-cnr/omicsTools")
+BiocManager::install(c("pheatmap", "EnhancedVolcano", "ggplot2", "DESeq2"))
